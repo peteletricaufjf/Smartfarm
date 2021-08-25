@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlalchemy
-import mysql.connector 
+import mysql.connector
 
 engine = sqlalchemy.create_engine('mysql+pymysql://u165471834_admin:admin@92.249.44.52/u165471834_smartfarmdb') 
 

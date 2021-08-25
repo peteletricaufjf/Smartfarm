@@ -23,7 +23,7 @@ for j in range (i,f):
     com = sql+J+ "'"
     mycursor.execute(com)
     teste_db.commit()
-    
+
 print("Linhas removidas.")
 
 a = "ALTER TABLE dados AUTO_INCREMENT = "
